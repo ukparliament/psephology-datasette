@@ -1,1 +1,1 @@
-datasette publish heroku psephology.db --metadata metadata.json -n psephology-datasette--branch main
+datasette publish heroku psephology.db --metadata metadata.json -n psephology-datasette
