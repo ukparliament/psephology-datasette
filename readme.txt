@@ -1,7 +1,11 @@
+Run locally with metadata:
+
+```datasette psephology.db --metadata metadata.json```
+
 Publishing to Heroku:
 
-datasette publish heroku psephology.db --metadata metadata.json -n psephology-datasette
+```datasette publish heroku psephology.db --metadata metadata.json -n psephology-datasette```
 
 Convert postgresql to sqlite: https://datasette.io/tools/db-to-sqlite
 
-db-to-sqlite "postgresql://localhost/psephology" psephology.db --all
+```db-to-sqlite "postgresql://localhost/psephology" psephology.db --all```
