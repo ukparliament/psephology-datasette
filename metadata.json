@@ -3,6 +3,6 @@
     "description": "Election results for the UK Parliament from 2010 to 2024. Compiled and made available by the House of Commons Library.",
     "license": "Open Parliament Licence",
     "license_url": "https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/",
-    "source": "Original Data Source",
+    "source": "UK Parliament election results website",
     "source_url": "https://electionresults.parliament.uk/"
 }
