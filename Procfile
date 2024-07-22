@@ -1,1 +1,1 @@
-web: datasette . -h 0.0.0.0 -p $PORT --cors --setting max_returned_rows:5000
+web: datasette . -h 0.0.0.0 -p $PORT --cors --setting max_returned_rows 5000
