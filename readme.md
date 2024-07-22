@@ -4,7 +4,7 @@ Run locally with metadata:
 
 Publishing to Heroku:
 
-```datasette publish heroku psephology.db --metadata metadata.json -n psephology-datasette --setting sql_time_limit_ms 3500 --setting max_returned_rows 5000```
+```datasette publish heroku psephology.db --metadata metadata.json --name psephology-datasette --extra-options="--config sql_time_limit_ms:3500 --config max_returned_rows:5000"```
 
 Convert postgresql to sqlite: https://datasette.io/tools/db-to-sqlite
 
