@@ -2,5 +2,5 @@
     "name": "UK Parliament Election Results",
     "description": "UK Parliament Election Results",
     "repository": "https://github.com/uk-parliament/election-results",
-    "keywords": ["datasette", "python", "sqlite", "elections", "uk", "parliament"],
+    "keywords": ["datasette", "python", "sqlite", "elections", "uk", "parliament"]
   }
