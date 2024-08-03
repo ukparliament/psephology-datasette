@@ -13,3 +13,11 @@ psql: create database psephology;
 psql psephology < db/dumps/2024-08-01.sql
 
 ```db-to-sqlite "postgresql://localhost/psephology" psephology.db --all```
+
+Dropping a db in Postgres and then importing a dump:
+
+```dropdb psephology```
+
+... in psql:
+
+```\i dump_name.sql```
