@@ -1,4 +1,4 @@
 six
 psycopg2-binary
-datasette @ git+https://github.com/jamesjefferies/datasette@temporary-branch-for-release
+datasette
 db-to-sqlite
