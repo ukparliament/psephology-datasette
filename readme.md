@@ -4,8 +4,17 @@ This repo looks after the set up and hosting of a [Datasette](https://datasette.
 
 ## Run locally with metadata:
 
- * Get Python up and running
- * Install dependencies
+### Set up venv
+
+ * `pip install virtualenv`
+ * `python3 -m venv ./venv`
+ * `source venv/bin/activate`
+
+### Then
+
+ * install python
+ * activate `venv` by doing `source venv/bin/activate`
+ * install dependencies by doing `pip install -r requirements.txt`
  * Run datasette - ```datasette psephology.db --metadata metadata.json```
 
 ## GitHub action
